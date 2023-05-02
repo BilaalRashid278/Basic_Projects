@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+}
+.navbar{
+    height: 70px;
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+}
+.logo a{
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+}
+.color-white{
+    color: white;
+}
+.menu-items{
+    display: flex;
+}
+.buttons{
+    display: flex;
+}
+.item{
+    margin: 0px 15px;
+    font-size: 18px;
+    position: relative;
+}
+.btn{
+    margin: 0px 13px;
+    border: 2px solid white;
+    padding: 5px 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    /* border: none; */
+    color: black;
+    font-weight: 500;
+}
+.signup{
+    padding: 5px 13px !important;
+}
+
+.arrow{
+    width: 15px;
+    /* border: 2px solid white; */
+    position: relative;
+    right: 17px;
+    top: 2px;
+    cursor: pointer;
+}
+.links{
+    color: white;
+    position: absolute;
+    /* display: block; */
+    /* background-color: white; */
+    min-width: 70px;
+    border: 2px solid black;
+    /* margin: 0px 2px; */
+    display: none;
+}
+.display_block{
+    display: block;
+}
+
+.dropdown-list{
+    /* border: 2px solid white; */
+    text-align: center;
+}

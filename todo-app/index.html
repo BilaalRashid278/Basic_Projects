@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>My Todo List</title>
+</head>
+
+<body>
+        <div class="container-fluid todo-container d-flex align-items-center flex-column pt-5">
+            <div class="search">
+                <input type="text" id="filter" class="filter" placeholder="Search todos...">
+                <img src="./search-icon.png" alt="" width="25px" class="search-icon">
+            </div>
+            <ul class="items">
+                <!-- <h3 class="warning">Please Write any text</h3> -->
+                <li class="item" type="none">
+                    <span class="text">Demo todo 1</span>
+                    <img src="./icons8-delete-64.png" alt="delete" width="25px" class="delete">
+                </li>
+                <li class="item" type="none">
+                    <span class="text">Demo todo 2</span>
+                    <img src="./icons8-delete-64.png" alt="delete" width="25px" class="delete">
+                </li>
+            </ul>
+            <div class="add-todos">
+                <input type="text" id="todos" class="filter" placeholder="Add new todos...">
+                <img src="https://img.icons8.com/ios-glyphs/30/null/plus-2-math.png" class="add"/>
+            </div>
+        </div>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+        
+
+</html>
+

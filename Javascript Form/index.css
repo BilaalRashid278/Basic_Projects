@@ -1,0 +1,137 @@
+body{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-image:url('./imgs/form\ bacgorund-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container-sm{
+    /* border: 2px solid blue; */
+}
+.form-container{
+    width: 500px !important;
+    height: 550px !important;
+    /* border: 2px solid red; */
+    background-color: rgb(255, 255, 255);
+    opacity: 60%;
+    border-radius: 3%;
+}
+.row{
+    /* border: 2px solid red; */
+    margin-top: 35px !important;
+}
+.col-4 a{
+    position: relative;
+    top: 10px;
+}
+.button{
+    background-color: rgb(144, 0, 255);
+    border: none;
+    /* padding: 10px 50px; */
+    width: 150px;
+    height: 45px;
+    border-radius: 6px;
+    font-size: larger;
+    font-weight: 600;
+    box-shadow: -2px 5px 35px -3px rgba(0,0,0,0.75);
+    display: inline;
+    color: white;
+}
+.fa-user{
+    position: relative;
+    right: 15px;
+}
+.fa-user-plus{
+    position: relative;
+    right: 10px;
+}
+.sign{
+    font-size: 20px;
+    color: rgb(144, 0, 255);
+}
+.mail{
+    /* border: 2px solid green; */
+}
+.email input, .password input, .main-btn{
+    width: 400px;
+    margin: 13px 0px;
+    height: 45px;
+    background-color: white;
+    border: none;
+    box-shadow: 5px 9px 29px -4px rgba(0,0,0,0.75);
+    outline: none;
+    font-size: 20px;
+    padding: 7px 0px !important;
+    padding-left: 10px !important;
+    font-weight: 400;
+    border-radius: 5px;
+   
+}
+.javascipt-show{
+    border: 2px solid red;
+    width: 400px;
+    height: 0px;
+}
+.forget{
+    /* border: 2px solid green; */
+}
+.forgot{
+    text-decoration: none;
+    color: rgb(144, 0, 255);
+}
+.forgot h5{
+    font-size: 14px;
+    padding-left: 2%;
+}
+
+
+.check{
+    /* border: 2px solid blue; */
+    padding-left: 12%;
+    margin-top: 15px !important;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 3.5px;
+    right: 7px;
+}
+.check span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-btn{
+    background-color: rgb(144, 0, 255);
+    color: white;
+}
+.dont{
+    font-size: 16px;
+}
+.dont{
+    margin-top: 15px;
+}
+.havent{
+    width: 400px !important;
+    
+}
+.dont span a{
+    text-decoration: none;
+    color: rgb(144, 0, 255);
+} 
+.text{
+    /* border: 2px solid blue; */
+    position: relative;
+    left: 10.1%;
+    top: 3%;
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(86, 86, 205);
+}
+
+.container {
+    display: flex;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.wrapper {
+    background-color: white;
+    height: 55vh;
+    padding: 22px 35px
+}
+
+.wrapper {
+    border-radius: 8px;
+}
+
+.wrapper textarea {
+    width: 320px;
+    height: 35vh;
+    resize: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.wrapper textarea::placeholder {
+    opacity: 70%;
+}
+
+.area-two {
+    border-left: none;
+    position: relative;
+    right: 3.5px;
+}
+
+.icons {
+    border: 1px solid black;
+    height: 50px;
+    width: 99.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.speaker i {
+    cursor: pointer;
+    margin: 15px 8px;
+    color: rgb(123, 123, 123);
+}
+
+.lang {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 73%;
+}
+
+.lang .eng,
+.change,
+.urdu {
+    margin: 15px 8px;
+}
+
+.change {
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.eng {
+    padding-left: 4%;
+    cursor: default;
+    display: flex;
+}
+
+.urdu {
+    padding-right: 10%;
+    cursor: default;
+    display: flex;
+}
+
+.drop {
+    padding-left: 40%;
+    cursor: pointer;
+}
+
+.button input {
+    width: 99.5%;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: rgb(86, 86, 205);
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button input:active {
+    background-color: rgb(78, 78, 181);
+}

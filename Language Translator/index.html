@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom css file -->
+    <link rel="stylesheet" href="./index.css">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Language Translator</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="wrapper">
+            <textarea  cols="30" rows="10" placeholder="Enter text" class="area-one"></textarea>
+            <textarea cols="30" rows="10" placeholder="Translation" class="area-two" readonly></textarea>
+            <div class="icons">
+
+                <div class="speaker">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <i class="fa-solid fa-clone"></i>
+                </div>
+
+                <div class="lang">
+                    <div class="eng">
+                        <h5>English</h5>
+                        <i class="fa-sharp fa-solid fa-circle-chevron-down drop"></i>
+                    </div>
+                    <div class="change">
+                        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    </div>
+                    <div class="urdu">
+                        <h5>Urdu</h5>
+                        <i class="fa-sharp fa-solid fa-circle-chevron-down drop"></i>
+                    </div>
+                </div>
+
+                <div class="speaker">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <i class="fa-solid fa-clone"></i>
+                </div>
+            </div>
+            <div class="button">
+                <input type="button" value="Translate Text">
+            </div>
+        </div>
+    </div>
+
+    <!-- custom js file -->
+    <script src="./index.js"></script>
+</body>
+</html>

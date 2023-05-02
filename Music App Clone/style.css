@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.items .item{
+    list-style-type: none;
+}
+.items{
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+.item img{
+    width: 44px;
+}
+.item a{
+    text-decoration:  none;
+    color: white;
+}
+.item{
+    display: inline;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.spotify a span{
+    margin-left: 5px;
+    font-weight: bold;
+}
+.spotify a{
+    display: flex;
+    align-items: center;
+}
+.container-one{
+    min-height: 70vh;
+    background-color: black;
+    display: flex;
+    width: 70%;
+    margin: 25px auto;
+    border-radius: 12px;
+    padding: 23px;
+    height: 72vh;
+    background-image: url('./bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom{
+    position: sticky;
+    /* background-color: green; */
+    color: white;
+    height: 100px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 5px;
+}
+.icons img{
+    cursor: pointer;
+}
+.icon{
+    width: 50px;
+}
+.np{
+    width: 37px;
+    margin: 0px 10px;
+}
+.songItem{
+    height: 30px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+.songItem .img{
+    width: 30px;
+    margin: 0px 23px;
+    border-radius: 34px;
+}
+.timetamp{
+    position: relative;
+    top: 1px;
+    font-weight: bold;
+}
+.play-group{
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.ncs{
+    font-size: 20px;
+}
+.songInfo{
+    position: absolute;
+    left: 10.1vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.changeWidth{
+    width: 50px;
+}
+.paused{
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}

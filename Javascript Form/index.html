@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./index.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <div class="container-sm d-flex justify-content-center pt-5">
+        
+        <form class="form-container mt-5 ">
+
+            
+            <div class="row justify-content-evenly signs">
+                <div class="col-4">
+                    <button class="button"><i class="fa-solid fa-user"></i>Sign In</button>
+                </div>
+                <div class="col-4 text-center">
+                   <a href="#" style="text-decoration: none;"><h4 class="sign"><i class="fa-solid fa-user-plus"></i>Sign Up</h4></a>
+                </div>
+            </div>
+            
+            
+
+            <div class="row mail justify-content-center">
+                <div class="col-auto email">
+                    <input type="email" placeholder="Username" id="username">
+                </div>
+                <div class="col-auto password">
+                    <input type="password" placeholder="Password" id="password">
+                </div>
+                <div class="col-10 forget">
+                    <a href="#" class="forgot"><h5>Forgot Password?</h5></a>
+                </div>
+            </div>
+
+            <div class="row check">
+                <div class="col-10">
+                    <input type="checkbox" class="checkbox" >
+                    <span>Remember Me</span>
+                </div>
+            </div>
+
+            <span class="text"></span>
+
+            <div class="row r-main"> 
+                <div class="col-12 d-flex justify-content-center">
+                    <button class="main-btn" onclick="submited()"><i class="fa-solid fa-right-to-bracket"></i> Sing in</button>
+                </div>
+            </div>
+
+            <div class="row justify-content-center" style="margin-top: 7px !important;">
+                <div class="col-10 havent" style="height: 50px;background-color: white; box-shadow: 5px 9px 29px -4px rgba(0,0,0,0.75);">
+                    <h4 class="dont">Don't have an account? <span><a href="#">Sign Up</a></span></h4>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- custom javascript link -->
+    <script src="./index.js"></script>
+    <!-- bootstrap javascript link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
